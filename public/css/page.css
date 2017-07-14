@@ -1,0 +1,364 @@
+
+body {
+	background-color: #313131;
+	position: relative;
+	width: 100%;
+}
+#page-container {
+	width: 100%;
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	height: 700px;
+}
+.nav-check {
+	color: #ffa7a7;
+	font-size: 18px;
+	font-weight: bold;
+}
+#home-page {
+	width: 100%;
+	position: relative;
+	left: -100%;
+}
+#background {
+	width: 100%;
+	height: 80px;
+	background-color: #242424;
+	position: absolute;
+	top: 670px;
+	z-index: -1;
+}
+header #header-container li, header #header-container ul, header #header-container div {
+	float: left;
+}
+header {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	background-color: #2e968f;
+	color: white;
+	border-bottom:1px solid #def0f4; 
+	position: relative;
+}
+#logo-container {
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+#header-container {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+#header-nav li, #active, #today li{
+	font-size: 14px;
+	height: 50px;
+	line-height: 48px;
+}
+#header-nav li {
+	margin-left: 30px;
+}
+#active {
+	margin-left: 100px;
+}
+#today {
+	margin-left: 350px;
+}
+#today li {
+	margin-left: 10px;
+}
+
+/*header-end*/
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+}
+#main .block {
+	float: left;
+} 
+#home-page-left {
+	width: 660px;
+	height: 600px;
+	margin-left: 20px;
+	float: left;
+}
+
+/**time-vs-people**/
+#time-vs-people {
+	width: 660px;
+	height: 250px;
+	margin-top: 20px;
+	position: relative;
+}
+#time-vs-people .illustrate {
+    width: 34.8484848%;
+    height: 4.8%;
+    position: absolute;
+    top: 0px;
+    left: 32.5757576%;
+}
+#time-vs-people .illustrate p {
+	display: inline-block;
+}
+#time-vs-people .illustrate .color1, #time-vs-people .illustrate .color2 {
+	width: 43.4782609%;
+	height: 100%;
+	float: left;
+	color: #ffa7a7;
+}
+#time-vs-people .illustrate .color2 {
+	margin-left: 13.0434783%;
+	color: #62c3ec;
+}
+#time-vs-people .illustrate .color1 div, #time-vs-people .illustrate .color2 div  {
+	width: 45%;
+	height: 100%;
+	background-color: orange;
+	float: right;
+	display: inline-block;
+	background-color: #ffa7a7
+}
+#time-vs-people .illustrate .color2 div {
+	background-color: #62c3ec;
+}
+#time-vs-people .data-field, #time-vs-people .data-field .axis {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+#time-vs-people .data-field .view {
+	position: absolute;
+	width: 87.2727273%;
+	height: 100%;
+	left: 5.45454545%;
+	overflow: hidden;
+}
+#time-vs-people .data-field .view .dashed, #time-vs-people .data-field .view .data {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: -6.25%;
+}
+#time-vs-people .data-scroll-btn {
+	position: absolute;
+	width: 6.818181812%;
+	height: 8%;
+	top: 98%;
+}
+#time-vs-people .back {
+	left: 42.4242424%;
+}
+#time-vs-people .advance {
+	left: 50.7575758%;
+}
+
+/**graph-title**/
+#graph-title {
+	width: 660px;
+	height: 70px;
+	margin-top: 20px;
+	position: relative;
+}
+#graph-title h1 {
+	font-size: 1.92em;
+	width: 100%;
+	text-align: center;
+}
+#graph-title a {
+	display: block;
+	width: 18.1818182%;
+	height: 35.7142857%;
+	background: #4caf79;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	position: absolute;
+	left: 40.9090909%;
+	bottom: 0;
+}
+
+/****/
+#shop-imformation {
+	width: 660px;
+	height: 150px;
+	margin-top: 20px;
+}
+#shop-imformation h1 {
+    width: 100%;
+    font-size: 1.33em;
+    text-align: center;
+    line-height: 1em;
+    color: white;
+    position: absolute;
+}
+#shop-imformation .people-counting h1, #shop-imformation .scheduling-numble h1 {
+   position: absolute;
+   top: 56.3333333%;
+}
+#shop-imformation .warning h1 {
+	position: absolute;
+	top: 33%;
+}
+#shop-imformation .people-counting div, #shop-imformation .scheduling-numble div {
+    width: 23.8095238%;
+    height: 16.6666667%;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    position: absolute;	
+    top: 33%;
+    left: 38.0952381%;
+    text-align: center;
+}
+#shop-imformation .warning a {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 56.3333333%;
+	text-align: center;
+}
+#shop-imformation .people-counting, #shop-imformation .scheduling-numble, #shop-imformation .warning {
+	width: 31.8181818%;
+	height: 100%;
+	background: #4caf79;
+	float: left;
+	position: relative;
+}
+#shop-imformation .scheduling-numble, #shop-imformation .warning {
+	margin-left: 2.27272727%;
+}
+
+/*****/
+#face-list {
+	width: 480px;
+	height: 510px;
+	background-color: #e0e0e0;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+#face-list h3 {
+    font-size: 1.5em;
+    margin-top: 3.1372549%;
+    margin-left: 7.84313725%;
+}
+#face-list .view {
+	width: 83.8174274%;
+	height: 78.2352941%;
+	left: 7.84313725%;
+	position: absolute;
+	top: 9.21568627%;
+	overflow: hidden;
+}
+#face-list a {
+	width: 27.083333333%;
+	height: 4.90196078%;
+	background-color: #a1a1a1;
+	border-radius: 3px;
+	text-align: center;
+	left: 37.254902%;
+	top: 90.1960784%;
+	display: block;
+	position: absolute;
+}
+#face-list .scroll-bar-container {
+	width: 20px;
+	background-color: blue;
+	position: absolute;
+	top: 47px;
+	right: 15px;
+	height: 399px;
+}
+#face-list .scroll-bar {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#slider1 {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+}
+#face-list .face-container img:hover {
+    opacity: 0.2;
+}
+#face-list .view .face-list-container {
+	margin-top: -43px;
+	margin-left: -8px;
+	position: relative;--
+}
+/*****/
+#face-imformation {
+	width: 300px;
+	height: 510px;
+	position: absolute;
+	background-color: white;
+	left: -310px;
+	top: 0px;
+	display: none;
+}
+#face-imformation .person {
+	width: 260px;
+	height: 120px;
+	border-bottom: 2px solid orange;
+	margin-left: 20px;
+}
+#face-imformation .person .img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	border: 2px solid #fafafa;
+}
+#face-imformation .person .txt {
+	width: 146px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#face-imformation .person .txt p {
+	margin-top: 15px;
+	font-weight: bold;
+}
+#face-imformation .person .txt p:first-child {
+	margin-top: 0px;
+}
+#face-imformation .person .txt p:last-child {
+	font-size: 16px;
+}
+#face-imformation .person .txt p span {
+	color: orange;
+}
+#face-imformation .possible-returning-customer .possible-returning-customer-container {
+	width: 90px;
+	height: 105px;
+	margin-left: 20px;
+	margin-top: 13px;
+	display: none;
+}
+#face-imformation .possible-returning-customer .img {
+	width: 90px;
+	height: 90px;
+	background-color: red;
+} 
+#face-imformation .possible-returning-customer p {
+	margin-top: 2px
+}
+#face-imformation button {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+/*****/

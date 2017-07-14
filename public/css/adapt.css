@@ -1,0 +1,127 @@
+@media screen and (min-width: 1900px) {
+    #home-page #face-list ul li {
+        margin-top: 37px;
+    }
+    #home-page #face-list ul {
+        margin-top: -37px;
+    }
+	#data-edit #data-edit-main {
+	    width: 1600px;
+	    height: 750px;
+	    margin-top: 40px;
+    }
+    #data-edit #re {
+	    width: 1600px;
+	    height: 50px;
+	    top: 756px;
+    }
+    #data-edit #re-side-left {
+	    width: 162.5px;
+	    height: 100%;
+    }
+    #data-edit #re-side-right-cover {
+	    width: 1437.5px;
+	    height: 50px;
+	    margin-left: 162.5px;
+    }
+    #data-edit #re-cover {
+	    width: 1675px;
+	    height: 75px;
+        bottom: -25px;
+        left: -75px;
+    }
+    #data-query-main {
+	    width: 1625px;
+	    height: 750px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 40px;
+	    background-color: #fafafa;
+    }
+    #data-query .side-left {
+	    width: 266px;
+	    height: 700px;
+	    margin-top: 20px;
+	    margin-left: 20px;
+	    float: left;
+	    background-color: #def0f4;
+    }
+    #background {
+	    height: 140px;
+	    top: 827.5px;
+    }
+    #home-page #main {
+        width: 1500px;
+        height: 750px;
+        margin-top: 40px;
+    }
+    #home-page #reflection {
+	    width: 1500px;
+	    height: 40px;
+	    opacity: 0.15;
+	    margin-top: 5px;
+    }   
+    #home-page .hiden-container2 .nb-imformation-container {
+	    width: 1210px;
+	    height: 210px;
+    } 
+    #home-page .time {
+        width: 1440px;
+        height: 25px;
+    }
+    #home-page .time div {
+        width: 60px;
+    }
+    #data-query .side-right .over-four .people {
+	    bottom: 17%;
+    }
+    .graph-container3 .y-line {
+        line-height: 53.75px;
+    }
+    .graph-container4 .y-line {
+        line-height: 53.75px;
+    }
+    .graph-container6 .y-line {
+        line-height: 27.5px;
+    }
+    .graph-container8 .y-line {
+        line-height: 27.5px;
+    }
+    #data-query .side-right .just-one .people div {
+	    width: 100%;
+	    height: 20%;
+	    line-height: 45px;
+	    text-align: right;
+    }
+    #data-query .side-right .just-one .people div {
+	    width: 100%;
+	    height: 68.75px;
+	    line-height: 45px;
+	    text-align: right;
+    }
+    #data-query .side-right .just-one .people {
+	    bottom: 99.75px;
+    }
+    #data-query .side-right .just-one {
+	    height: 69%;
+    }
+    #page-container {
+        height: 875px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #data-edit canvas {
+        display: none;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #home-page {
+        width: 1300px;
+    }
+    #data-edit {
+        width: 1300px;
+    } 
+    #data-query {
+        width: 1300px;
+    }
+}

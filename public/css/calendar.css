@@ -1,0 +1,107 @@
+
+/*header-end*/
+#data-edit {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#data-edit-main {
+	width: 1280px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #0087b4;
+	position: relative;
+}
+#data-edit-main .side-left {
+	float: left;
+    height: 100%;
+    width: 130px;
+    background-color: #22282e;
+}
+#data-edit-main .side-left a {
+    display: block;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    content: #eaeaea;
+}
+#data-edit-main .side-left a:first-child {
+	margin-top: 80px;
+	background-color: #37424f;
+}
+#data-edit-main .side-right {
+	width: 1150px;
+	height: 100%;
+	float: left;
+}
+
+/*******/
+
+#calendar-container {
+	width: 1141px;
+	height: 548px;
+	margin-left: 5px;
+	overflow: hidden;
+	background-color: white;
+}
+#calendar-container .calendar-header {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	font-size: 14px;
+	color: white;
+}
+#calendar-container .calendar-header .date {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: #0087b4;
+
+}
+#calendar-container .calendar-header .nest, #calendar-container .calendar-header .back {
+	position: absolute;
+	height: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	width: 30px;
+	text-align: center;
+}
+#calendar-container .calendar-header .nest {
+	right: 10px;
+}
+#calendar-container .calendar-header .back {
+	left: 10px;
+}
+#calendar-container .calendar-header-week {
+	width: 100%;
+	height: 25px;
+}
+#calendar-container .calendar-header-week ul {
+	width: 100%;
+	height: 100%;
+}
+#calendar-container .calendar-header-week li {
+	float: left;
+	width: 163px;
+	height: 100%;
+	display: block;
+    text-align: center;
+    background-color: white;
+}
+#calendar-container .date-container {
+	width: 100%;
+	height: 492px;
+	margin-left: -1px;
+}
+#calendar-container .date-container li {
+	height: 81px;
+	width: 162px;
+	background-color: white;
+	float: left;
+	border-top: 1px solid #9fc5f8;
+	border-left: 1px solid #9fc5f8;
+}
